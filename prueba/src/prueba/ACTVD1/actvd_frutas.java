@@ -13,10 +13,10 @@ public class actvd_frutas {
 		System.out.println("Introduce los kg de peras vendidos este semstre: ");
 		int var_pera = sc.nextInt();
 
-		double total_manz = var_manzana * 2.35;
+		double total_manz = (var_manzana * 2.35)*2;
 		System.out.println("El importe total de manzanas es de " + total_manz + "euros");
 
-		double total_peras = (var_pera * 1.95 );
+		double total_peras = (var_pera * 1.95 )*2;
 		System.out.println("El importe total de peras es de " + total_peras + "euros");
 
 		
