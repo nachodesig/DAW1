@@ -10,12 +10,13 @@ public class main {
 		
 		p1.nombre = "jose";
 		p1.edad = 18;
-		p1.estatura = 1.70;
+		p1.estatura = 1.20;
 		
 		
 		
 		p1.presentarse();
-
+		p1.saludar();
+		
 	
 	}
 

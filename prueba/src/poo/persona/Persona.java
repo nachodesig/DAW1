@@ -15,8 +15,11 @@ public class Persona {
 
 	
 	void presentarse() {
-		System.out.println("hola! mi nombre es "+ nombre + ", tengo " + edad + " años y mido" + estatura + "cm y soy gay");
-		System.out.printf("Hola, mi nombre es %s, tengo %d años y mido %.2fcm.", nombre, edad, estatura);
+		System.out.println("hola! mi nombre es "+ nombre + ", tengo " + edad + " años y mido" + estatura + "cm ");
+		System.out.printf("Hola, mi nombre es %s, tengo %d años y mido %.2fcm. ", nombre, edad, estatura);
 
 	}
+	
+	
 }
+       
